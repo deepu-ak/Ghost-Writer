@@ -62,9 +62,47 @@
                 height: 50px;
             }
         }
+        .header ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .header li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .header a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .header img {
+            float: right;
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
+    <div class="header">
+        <nav class="top-menu">
+            <ul>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="Event.html">Event</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="notice.html">Notice</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </div>
     <h1>Register for your SOP </h1>
     <form>
         Name <input type="text" name="name" maxlength="20"><br><br>
