@@ -133,17 +133,4 @@ h3 {
 }
 
 
-@media only screen and (max-width: 768px) {
-  .container img {
-    width: 150px;
-    height: 150px;
-  }
-}
 
-
-@media only screen and (max-width: 480px) {
-  .container img {
-    width: 100px;
-    height: 100px;
-  }
-}
